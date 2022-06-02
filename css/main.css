@@ -16,8 +16,6 @@ body {
   font-family: Trebuchet MS, Helvetica;
 }
 
-/* Шапка сайта */
-
 header {
   width: 100%;
   padding: 10px 0.5% 0px 0.5%;
@@ -82,7 +80,6 @@ header #logo span {
   margin-right: 7%;
 }
 
-/* Стили для фиксированной шапки */
 
 .fixed {
   z-index: 5000;
@@ -96,8 +93,6 @@ header.fixed #logo {
 
 .fixed #about a {color: #343434}
 .fixed #about a:hover {color: #7c7c7c}
-
-/* Главный блок на сайте */
 
 #top {
   width: 100%;
@@ -145,8 +140,6 @@ header.fixed #logo {
   color: #ccc;
 }
 
-/* Блок с возможностями */
-
 #main {
   background-image: url(https://phonoteka.org/uploads/posts/2022-02/1645153852_37-phonoteka-org-p-fon-temnogo-tsveta-42.jpg);
   float: left;
@@ -188,8 +181,6 @@ header.fixed #logo {
 
 #main h2 {font-size: 3em}
 #main span {color: #a0a0a0}
-
-/* Блок с преимуществами */
 
 #overview {
   float: left;
@@ -252,7 +243,7 @@ header.fixed #logo {
   }
 }
 
-/* Блок с контактами */
+
 #contacts {
   width: 100%;
   float: left;
@@ -329,8 +320,6 @@ h1, h2, h3, h4, h5 {
   background-color: #c15443;
 }
 
-/* Вопросы и ответы */
-
 #faq {
   background-color: #fff;
   border-top: 2px dashed #e4e3e3;
@@ -340,7 +329,7 @@ h1, h2, h3, h4, h5 {
   padding-bottom: 70px;
 }
 
-@media (min-width: 801px) {
+@media (min-width: 805px) {
   #faq div {
     width: 25%;
     margin-left: 6%;
@@ -348,7 +337,7 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 804px) {
   #faq div {
     width: 80%;
     margin-left: 10%;
