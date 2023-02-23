@@ -34,6 +34,8 @@
       <span>Будет.</span>
     </div>
   </div>
+  
+  
 
   <div id="overview">
     <h2>Преимущества</h2>
@@ -82,6 +84,8 @@
       <p>Текст.</p>
     </div>
     <div>
+      
+      
       <span class="title">Гарантии</span><br>
       <span class="heading">Какие гарантии есть</span>
       <p>Текст.</p>
